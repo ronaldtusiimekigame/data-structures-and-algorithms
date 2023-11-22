@@ -14,7 +14,7 @@ def insertion_sort(arr):
             arr[j + 1] = arr[j]
             j -= 1
         arr[j + 1] = key
-#merge sort 
+#merge sort //
 def merge_sort(arr):
     if len(arr) > 1:
         mid = len(arr) // 2
